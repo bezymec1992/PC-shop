@@ -111,6 +111,11 @@ body {
 .main .slider__wrapp .slider__info {
   padding-left: 100px;
 }
+@media screen and (max-width: 1200px) {
+  .main .slider__wrapp .slider__info {
+    padding-left: 40px;
+  }
+}
 @media screen and (max-width: 900px) {
   .main .slider__wrapp .slider__info {
     padding-left: 10px;
@@ -126,9 +131,14 @@ body {
   color: white;
   padding-bottom: 24px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .main .slider__wrapp .slider__info h1 {
     font-size: 50px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .main .slider__wrapp .slider__info h1 {
+    font-size: 40px;
     text-align: left;
   }
 }
