@@ -11,9 +11,9 @@ hamburger.addEventListener('click', () => {
 const swiper = new Swiper('.swiper', {
   loop: true,
   spaceBetween: 100,
-  // autoplay: {
-  //   delay: 3000,
-  // },
+  autoplay: {
+    delay: 3000,
+  },
   grabCursor: true,
 
   breakpoints: {
